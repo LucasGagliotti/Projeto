@@ -1,0 +1,123 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Sansation';
+    src: url(Sansation_Bold.ttf);
+}
+body{
+    background-color: rgb(231, 142, 255);
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-image: linear-gradient(rgb(49, 49, 49), rgb(149, 0, 255));
+    color: white;
+    margin: 0px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.553);
+}
+header > p{
+    text-align: center;
+    margin: 10px;
+}
+nav{
+    padding: 0px 0px 10px 0px;
+}
+nav > a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid black;
+}
+nav > a:hover{
+    text-decoration: underline;
+    background-color: aquamarine;
+    transition-duration: 0.25s;
+}
+nav > a:visited{
+    color: rgb(0, 0, 0);
+}
+header > h1{
+    color: blueviolet;
+    text-align: center;
+    font-family: sansation;
+    margin: 0px;
+    padding: 10px;
+}
+div{
+    background-color: rgb(53, 53, 53);
+    margin: auto;
+    min-width: 320px;
+    max-width: 800px;
+    text-align: justify;
+    border-radius: 0px 0px 20px 20px;
+}
+h1{
+    margin: 0px;
+    padding: 10px;
+    color: aquamarine;
+    text-align: center;
+}
+p{
+    margin: 0px;
+    color: white;
+    padding: 20px;
+    line-height: 1.5em;
+}
+h2{
+    color: white;
+    margin: 10px;
+    text-align: center;
+    background-image: linear-gradient(to left, rgb(53, 53, 53), rgba(0, 255, 204, 0.626))
+}
+p > a{
+    color: aquamarine;
+    text-decoration: none;
+}
+p > a:visited{
+    color: aquamarine;
+    
+}
+p > a:hover{
+    text-decoration: underline;
+}
+main{
+    background-color: blueviolet;
+    margin: 20px;
+    border-radius: 10px;
+    color: white;
+}
+ul{
+    text-decoration: underline;
+    columns: 2;
+}
+h3{
+    top: 5%;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    background-color: black;
+    border-radius: 10px 10px 0px 0px;
+}
+iframe{
+    width: 95%;
+    height: 95%;
+    position: absolute;
+}
+.video{
+    background-color: blueviolet;
+    padding: 20px;
+    border-radius: 0%;
+    padding-bottom: 54%;
+    position: relative;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    margin: 10px 0px 0px 0px;
+}
+div img{
+    width: 90%;
+    display: block;
+    margin: auto;
+}
